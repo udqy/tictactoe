@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperator {
+    border-top: 3px dashed black;
+    width: 50vw;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.score-tile {
+    padding: 10px;
+}
